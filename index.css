@@ -5,14 +5,52 @@ body {
     color: #282828;
 }
 
-header {
-    background-color: #282828;
-    color: whitesmoke;
-}
+/* typography */
 
 .logo {
     font-size: 18px;
     font-weight: 700;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 30px 25px;
+}
+
+/* images */
+
+.icon {
+    width: 25px;
+}
+
+.item-img {
+    display: block;
+    width: 100%;
+}
+
+.chatbox-img {
+    margin: auto;
+    width: 50%; 
+}
+
+/* buttons */
+
+button {
+    align-self: center;
+    border: none;
+    background-color: #cd6858;
+    color: whitesmoke;
+    padding: 10px 15px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* layout */
+
+header {
+    background-color: #282828;
+    color: whitesmoke;
 }
 
 ul {
@@ -28,27 +66,12 @@ li {
     cursor: pointer;
 }
 
-.icon {
-    width: 25px;
-}
-
 .align-right {
     margin-left: auto;
 } 
 
-h1 {
-    font-size: 40px;
-    font-weight: 400;
-    margin: 30px 25px;
-}
-
 .item {
     position: relative;
-}
-
-.item-img {
-    display: block;
-    width: 100%;
 }
 
 .caption {
@@ -67,16 +90,6 @@ h1 {
     padding: 10px;
 }
 
-button {
-    align-self: center;
-    border: none;
-    background-color: #cd6858;
-    color: whitesmoke;
-    padding: 10px 15px;
-    font-weight: 700;
-    cursor: pointer;
-}
-
 .chatbox-bg {
     position: fixed;
     bottom: 6px;
@@ -89,9 +102,3 @@ button {
     box-shadow: 1px 1px 5px #999;
     display: flex;
 }
-
-.chatbox-img {
-    margin: auto;
-    width: 50%; 
-}
-
